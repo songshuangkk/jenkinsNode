@@ -14,4 +14,4 @@ server.listen(3333);
 
 setTimeout(function () {
    server.close();
-}, 5000);
+}, 4000);
