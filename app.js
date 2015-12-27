@@ -9,3 +9,7 @@ http.createServer(function (request, response) {
     response.write("Hello Docker");
     response.end();
 }).listen(3333);
+
+setTimeout(50000, function () {
+    http.close();
+});
