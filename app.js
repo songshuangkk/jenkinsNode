@@ -10,6 +10,6 @@ http.createServer(function (request, response) {
     response.end();
 }).listen(3333);
 
-setTimeout(50000, function () {
+setTimeout(function () {
     http.close();
-});
+}, 50000);
